@@ -1,12 +1,13 @@
 sudo: false
 language: node_js
 node_js:
-  - 10 # use nodejs v10 LTS
+  - 8.11.0 # use nodejs v10 LTS
 cache: npm
 branches:
   only:
     - master # build master branch only
 script:
+  - hexo clean
   - hexo generate # generate static files
 deploy:
   provider: pages
@@ -15,4 +16,4 @@ deploy:
   keep-history: true
   on:
     branch: master
-  local-dir: docs
+  local-dir: public

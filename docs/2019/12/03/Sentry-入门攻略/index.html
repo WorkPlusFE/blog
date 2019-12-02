@@ -1,5 +1,63 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="X-UA-Compatible" content="IE=edge"><title> Sentry 入门攻略 · WorkPlusFE</title><meta name="description" content="Sentry 入门攻略 - WorkPlusFE"><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="icon" href="/favicon.png"><link rel="stylesheet" href="/css/apollo.css"><link rel="search" type="application/opensearchdescription+xml" href="http://yoursite.com/atom.xml" title="WorkPlusFE"><meta name="generator" content="Hexo 4.0.0"><link rel="alternate" href="/atom.xml" title="WorkPlusFE" type="application/atom+xml">
-</head><body><div class="wrap"><header><a href="/" class="logo-link"><img src="/favicon.png" alt="logo"></a><ul class="nav nav-list"><li class="nav-list-item"><a href="/" target="_self" class="nav-list-link">BLOG</a></li><li class="nav-list-item"><a href="/archives/" target="_self" class="nav-list-link">ARCHIVE</a></li><li class="nav-list-item"><a href="/atom.xml" target="_self" class="nav-list-link">RSS</a></li></ul></header><main class="container"><div class="post"><article class="post-block"><h1 class="post-title">Sentry 入门攻略</h1><div class="post-info">2019年12月3日</div><div class="post-content"><h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><a href="https://github.com/getsentry/sentry" target="_blank" rel="noopener">Sentry</a> 是一个开源的实时错误监控的项目，支持多端的配置，包括 web 前端、服务器端、移动端及游戏端。</p>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Sentry 入门攻略 | WorkPlusFE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="基本概念Sentry 是一个开源的实时错误监控的项目，支持多端的配置，包括 web 前端、服务器端、移动端及游戏端。 支持各种主流语言，例如 python、oc、java、node、javascript 等，也可以应用到各种不同的框架上面，如前端框架中的 vue 、angular 、react 等最流行的前端框架，此外还提供了 GitHub、Slack、Trello 等常见开发工具的集成。 Sen">
+<meta name="keywords" content="sentry">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Sentry 入门攻略">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;03&#x2F;Sentry-%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5&#x2F;index.html">
+<meta property="og:site_name" content="WorkPlusFE">
+<meta property="og:description" content="基本概念Sentry 是一个开源的实时错误监控的项目，支持多端的配置，包括 web 前端、服务器端、移动端及游戏端。 支持各种主流语言，例如 python、oc、java、node、javascript 等，也可以应用到各种不同的框架上面，如前端框架中的 vue 、angular 、react 等最流行的前端框架，此外还提供了 GitHub、Slack、Trello 等常见开发工具的集成。 Sen">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:image" content="https:&#x2F;&#x2F;docs.sentry.io&#x2F;assets&#x2F;environment_filter-0c0681900ea6c1c30d8ef08382a6da17b38013780f19a03087885bf6fa0f9430.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;images.ctfassets.net&#x2F;em6l9zw4tzag&#x2F;4gBMFPOm4dQWm9OfrHLPqt&#x2F;983c79b198222ac9d46e8d781202be92&#x2F;breadcrumbs.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;user-images.githubusercontent.com&#x2F;10757519&#x2F;69917803-0092c700-14a5-11ea-8ecb-16bbdd0d7e83.png">
+<meta property="og:image" content="https:&#x2F;&#x2F;docs.sentry.io&#x2F;assets&#x2F;owners_panel-507c5848d618903826c83affa142278dd07296514ec8052041ab85c4ebf200d3.png">
+<meta property="og:updated_time" content="2019-12-02T21:16:42.996Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;docs.sentry.io&#x2F;assets&#x2F;environment_filter-0c0681900ea6c1c30d8ef08382a6da17b38013780f19a03087885bf6fa0f9430.png">
+  
+    <link rel="alternative" href="/atom.xml" title="WorkPlusFE" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/css/style.css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main"><article id="post-Sentry-入门攻略" class="article article-type-post" itemscope itemprop="blogPost">
+  
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Sentry 入门攻略
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/2019/12/03/Sentry-%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/" class="article-date">
+  <time datetime="2019-12-02T16:52:05.000Z" itemprop="datePublished">2019-12-03</time>
+</a>
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><a href="https://github.com/getsentry/sentry" target="_blank" rel="noopener">Sentry</a> 是一个开源的实时错误监控的项目，支持多端的配置，包括 web 前端、服务器端、移动端及游戏端。</p>
 <p>支持各种主流语言，例如 python、oc、java、node、javascript 等，也可以应用到各种不同的框架上面，如前端框架中的 vue 、angular 、react 等最流行的前端框架，此外还提供了 GitHub、Slack、Trello 等常见开发工具的集成。</p>
 <p>Sentry 使用 python 的 Django 编写后端服务；8.0 版本开始使用了 React.js 构建前端 UI。 </p>
 <p>Sentry 采用的是 C/S 架构，客户端通过 SDK 的方式集成到应用程序中，并自动将错误发送到 Sentry 的服务端。一般情况下，我们只需要在项目里安装 SDK 且进行少量配置，十分方便。</p>
@@ -162,4 +220,85 @@
 </blockquote>
 <h2 id="Issue-Owner"><a href="#Issue-Owner" class="headerlink" title="Issue Owner"></a>Issue Owner</h2><p>默认情况下，如果没有开启 Issue Owner，Sentry 会将警报发送到与此项目关联的团队的所有成员，通过 Issue Owner，可以设置基于路径或 URL 将通知定向到特定的团队或用户，从而减少冗余的提醒通知。这会更快速地将问题推送给相应的开发人员，从而更快地解决这些问题。</p>
 <p><img src="https://docs.sentry.io/assets/owners_panel-507c5848d618903826c83affa142278dd07296514ec8052041ab85c4ebf200d3.png" alt="Issue Owner"></p>
-</div></article></div></main><footer><div class="paginator"><a href="/2019/12/03/Sentry-%E5%89%8D%E7%AB%AF%E5%BC%82%E5%B8%B8%E4%B8%8A%E6%8A%A5%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/" class="prev">上一篇</a></div><div class="copyright"><p>© 2015 - 2019 <a href="http://yoursite.com">WorkPlusFE</a>, powered by <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/pinggod/hexo-theme-apollo" target="_blank">hexo-theme-apollo</a>.</p></div></footer></div><script async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-MML-AM_CHTML" integrity="sha384-crwIf/BuaWM9rM65iM+dWFldgQ1Un8jWZMuh3puxb8TOY9+linwLoI7ZHZT+aekW" crossorigin="anonymous"></script></body></html>
+
+      
+
+      
+        
+    </div>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2019/12/03/Sentry-%E5%89%8D%E7%AB%AF%E5%BC%82%E5%B8%B8%E4%B8%8A%E6%8A%A5%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Sentry 前端异常上报源码分析
+        
+      </div>
+    </a>
+  
+  
+</nav>
+
+  
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  <nav class="menus">
+  	<ul>
+  		<li><a href="/"><i class="icon icon-home"></i></a></li>
+  		
+			<li><a href="/archives"><i class="icon icon-fenlei"></i></a></li>
+  		
+  		
+			<li><a href="/tags"><i class="icon icon-tag"></i></a></li>
+  		
+  		
+  			<li><a href="https://github.com/hejianxian" target="_blank"><i class="icon icon-github"></i></a></li>
+  		
+  	</ul>
+  </nav>
+  <a id="go-top" href="#"><i class="icon icon-up"></i></a>
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+	<div id="footer-info" class="inner">
+	  &copy; 2019 WorkPlusFE 
+	  - Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	  - Theme <a href="https://github.com/hejianxian/hexo-theme-jane/" target="_blank">Jane</a>
+	</div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/tags" class="mobile-nav-link">Tag</a>
+  
+    <a href="https://github.com/hejianxian" target="_blank" rel="noopener" class="mobile-nav-link">Github</a>
+  
+</nav>
+    
+
+<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+  <script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js"></script>
+
+  </div>
+</body>
+</html>

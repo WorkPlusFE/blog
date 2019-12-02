@@ -5,7 +5,6 @@ cache:
 language: node_js
 node_js: stable
 os:
-  - linux
   - osx
 branches:
   only:
@@ -18,8 +17,6 @@ script:
 deploy:
   provider: pages
   github-token: $GITHUB_TOKEN
-  skip_cleanup: true
-  keep_history: true
   local-dir: public/
   on:
     branch: master

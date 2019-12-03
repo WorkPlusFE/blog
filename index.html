@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>WorkPlusFE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="WorkPlusFE 内部分享会文章集合">
+<meta property="og:type" content="website">
+<meta property="og:title" content="WorkPlusFE">
+<meta property="og:url" content="https:&#x2F;&#x2F;workplusfe.github.io&#x2F;blog&#x2F;index.html">
+<meta property="og:site_name" content="WorkPlusFE">
+<meta property="og:description" content="WorkPlusFE 内部分享会文章集合">
+<meta property="og:locale" content="zh-CN">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternative" href="/blog/atom.xml" title="WorkPlusFE" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/blog/favicon.ico">
+  
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="/blog/css/style.css">
+  
+
+</head>
+<body>
+  <div id="container">
+    <div id="wrap">
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-Sentry-前端异常上报源码分析" class="article article-type-post" itemscope itemprop="blogPost">
+  
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/2019/12/03/Sentry-%E5%89%8D%E7%AB%AF%E5%BC%82%E5%B8%B8%E4%B8%8A%E6%8A%A5%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/">Sentry 前端异常上报源码分析</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/blog/2019/12/03/Sentry-%E5%89%8D%E7%AB%AF%E5%BC%82%E5%B8%B8%E4%B8%8A%E6%8A%A5%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/" class="article-date">
+  <time datetime="2019-12-02T16:55:52.000Z" itemprop="datePublished">2019-12-03</time>
+</a>
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>这节我们主要对 Sentry 核心概念的基本原理进行分析，主要有几点：</p>
+<ul>
+<li>收集错误信息</li>
+<li>面包屑如何工作</li>
+</ul>
+        
+          <p class="article-more-link">
+            <a href="/blog/2019/12/03/Sentry-%E5%89%8D%E7%AB%AF%E5%BC%82%E5%B8%B8%E4%B8%8A%E6%8A%A5%E6%BA%90%E7%A0%81%E5%88%86%E6%9E%90/#more">More...</a>
+          </p>
+        
+      
+
+      
+        
+    </div>
+  </div>
+  
+</article>
+
+
+
+  
+    <article id="post-Sentry-入门攻略" class="article article-type-post" itemscope itemprop="blogPost">
+  
+  <div class="article-inner">
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/blog/2019/12/03/Sentry-%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/">Sentry 入门攻略</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-meta">
+      <a href="/blog/2019/12/03/Sentry-%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/" class="article-date">
+  <time datetime="2019-12-02T16:52:05.000Z" itemprop="datePublished">2019-12-03</time>
+</a>
+      
+    </div>
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h2><p><a href="https://github.com/getsentry/sentry" target="_blank" rel="noopener">Sentry</a> 是一个开源的实时错误监控的项目，支持多端的配置，包括 web 前端、服务器端、移动端及游戏端。</p>
+<p>支持各种主流语言，例如 python、oc、java、node、javascript 等，也可以应用到各种不同的框架上面，如前端框架中的 vue 、angular 、react 等最流行的前端框架，此外还提供了 GitHub、Slack、Trello 等常见开发工具的集成。</p>
+<p>Sentry 使用 python 的 Django 编写后端服务；8.0 版本开始使用了 React.js 构建前端 UI。 </p>
+<p>Sentry 采用的是 C/S 架构，客户端通过 SDK 的方式集成到应用程序中，并自动将错误发送到 Sentry 的服务端。一般情况下，我们只需要在项目里安装 SDK 且进行少量配置，十分方便。</p>
+        
+          <p class="article-more-link">
+            <a href="/blog/2019/12/03/Sentry-%E5%85%A5%E9%97%A8%E6%94%BB%E7%95%A5/#more">More...</a>
+          </p>
+        
+      
+
+      
+        
+    </div>
+  </div>
+  
+</article>
+
+
+
+  
+  
+</section>
+        <aside id="sidebar">
+  <nav class="menus">
+  	<ul>
+  		<li><a href="/blog/"><i class="icon icon-home"></i></a></li>
+  		
+			<li><a href="/blog/archives"><i class="icon icon-fenlei"></i></a></li>
+  		
+  		
+			<li><a href="/blog/tags"><i class="icon icon-tag"></i></a></li>
+  		
+  		
+  			<li><a href="https://github.com/WorkPlusFE/blog" target="_blank"><i class="icon icon-github"></i></a></li>
+  		
+  	</ul>
+  </nav>
+  <a id="go-top" href="#"><i class="icon icon-up"></i></a>
+</aside>
+
+      </div>
+      <footer id="footer">
+  
+	<div id="footer-info" class="inner">
+	  &copy; 2019 WorkPlusFE 
+	  - Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	  - Theme <a href="https://github.com/hejianxian/hexo-theme-jane/" target="_blank">Jane</a>
+	</div>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/blog/" class="mobile-nav-link">Home</a>
+  
+    <a href="/blog/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/blog/tags" class="mobile-nav-link">Tag</a>
+  
+    <a href="https://github.com/WorkPlusFE/blog" target="_blank" rel="noopener" class="mobile-nav-link">Github</a>
+  
+</nav>
+    
+
+<script src="//cdn.bootcss.com/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/blog/fancybox/jquery.fancybox.css">
+  <script src="/blog/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/blog/js/script.js"></script>
+
+  </div>
+</body>
+</html>

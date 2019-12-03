@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>WorkPlusFE</title>
   
-  
+  <subtitle>内部分享会文章集合</subtitle>
   <link href="/blog/atom.xml" rel="self"/>
   
   <link href="https://workplusfe.github.io/blog/"/>

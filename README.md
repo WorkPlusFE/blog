@@ -1,5 +1,6 @@
-# Blog [![Build Status](https://travis-ci.org/WorkPlusFE/blog.svg?branch=master)](https://travis-ci.org/WorkPlusFE/blog)
+### WorkPlusFE Blog
 
-WorkPlusFE 内部分享会文章集合 
+> Thanks to [antfu](https://github.com/antfu/antfu.me) and [hannoeru/hannoeru.me](https://github.com/hannoeru/hannoeru.me), the blog is very beautiful! 💘
 
-> 博客使用[Hexo](https://hexo.io/zh-cn/)进行搭建，相关操作请查看文档！
+<samp>code is licensed under <a href='./LICENSE'>MIT</a>,<br> words and images are licensed under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>CC BY-NC-SA 4.0</a></samp>.
+

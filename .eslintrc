@@ -1,0 +1,9 @@
+{
+  "extends": ["@hannoeru"],
+  "overrides": [
+    {
+      "files": ["**/*.md"],
+      "extends": ["plugin:mdx/recommended"]
+    }
+  ]
+}

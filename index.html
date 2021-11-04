@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Han" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="WorkPlusFE's Blog"
+      href="/feed.xml"
+    />
+    <meta name="msapplication-TileColor" content="#000" />
+    <meta name="theme-color" content="#000" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@200;400;600&display=swap" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Inter:wght@200;400;600&display=swap"
+      rel="stylesheet"
+      media="print"
+      onload="this.media='all'"
+    />
+    <title>WorkPlusFE's Blog</title>
+    <script>
+      (function() {
+        const prefersDark
+            = window.matchMedia
+            && window.matchMedia('(prefers-color-scheme: dark)').matches
+        const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+        if (setting === 'dark' || (prefersDark && setting !== 'light'))
+          document.documentElement.classList.toggle('dark', true)
+      })()
+    </script>
+  </head>
+  <body>
+    <div id="app" class="font-sans"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

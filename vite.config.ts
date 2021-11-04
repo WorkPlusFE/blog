@@ -174,4 +174,8 @@ export default defineConfig({
       await optimizeImages()
     },
   },
+
+  build: {
+    outDir: 'docs',
+  },
 })

@@ -70,7 +70,6 @@ function searchTag(tag: string) {
         </h1>
         <TagSelectList v-if="route.path === '/'" />
       </div>
-      <ShareButtons />
     </div>
     <div v-if="frontmatter.image" class="max-w-screen-lg mx-auto py-8">
       <img v-lazy="frontmatter.image" class="overflow-hidden rounded-lg md:rounded-xl w-full" :alt="frontmatter.title">

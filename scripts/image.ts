@@ -18,7 +18,7 @@ export async function optimizeImages() {
 
   await Promise.all(
     images.map(async(image) => {
-      const outFile = image.replace('public', 'docs')
+      const outFile = image.replace('public', 'dist')
       let img = sharp(image)
       const meta = await img.metadata()
 
@@ -32,7 +32,7 @@ export async function optimizeImages() {
 
       // eslint-disable-next-line no-console
       console.log(
-        `${chalk.dim('docs/')}${chalk.cyan(image.replace('public/', '').padEnd(15, ' '))}  ${chalk.dim(getSize(info.size))}`,
+        `${chalk.dim('dist/')}${chalk.cyan(image.replace('public/', '').padEnd(15, ' '))}  ${chalk.dim(getSize(info.size))}`,
       )
     }),
   )

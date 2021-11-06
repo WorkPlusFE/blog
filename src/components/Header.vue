@@ -12,15 +12,16 @@
         to="/"
         focusable="false"
       >
-        WorkPlusFE's Blog
+        <span class="lt-md:hidden">WorkPlusFE's Blog</span>
+        <span class="md:hidden text-xl">@w6s/blog</span>
       </router-link>
       <nav class="nav">
         <router-link to="/" title="Post">
-          <span class="lt-md:hidden">Post</span>
+          <span class="lt-md:hidden">文章</span>
           <ri-article-line class="md:hidden" />
         </router-link>
         <router-link to="/about" title="About">
-          <span class="lt-md:hidden">About</span>
+          <span class="lt-md:hidden">关于</span>
           <ri-bookmark-line class="md:hidden" />
         </router-link>
         <a href="https://github.com/workplusfe" target="_blank" rel="noopener" title="GitHub">

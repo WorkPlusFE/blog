@@ -60,12 +60,12 @@ function searchTag(tag: string) {
 
 <template>
   <div :class="{ 'post-list': isPostList }">
-    <div v-if="frontmatter.title" class="max-w-screen-sm m-auto mb-8">
+    <div v-if="frontmatter.title" class="max-w-screen-lg m-auto mb-8">
       <p v-if="frontmatter.date" class="opacity-50 -mt-2 mb-5">
         {{ formatDate(frontmatter.date) }}
       </p>
       <div class="flex items-center">
-        <h1 class="text-4xl font-extrabold">
+        <h1 v-if="route.path !== '/'" class="text-4xl font-extrabold">
           {{ frontmatter.title }}
         </h1>
         <TagSelectList v-if="route.path === '/'" />
@@ -74,10 +74,10 @@ function searchTag(tag: string) {
     <div v-if="frontmatter.image" class="max-w-screen-lg mx-auto py-8">
       <img v-lazy="frontmatter.image" class="overflow-hidden rounded-lg md:rounded-xl w-full" :alt="frontmatter.title">
     </div>
-    <div :class="{ 'max-w-screen-sm mx-auto': frontmatter.prose !== false }">
+    <div :class="{ 'max-w-screen-lg mx-auto': frontmatter.prose !== false }">
       <slot />
     </div>
-    <div v-if="frontmatter.tags" class="max-w-screen-sm m-auto mt-12">
+    <div v-if="frontmatter.tags" class="max-w-screen-lg m-auto mt-12">
       <span class="text-lg font-semibold mr-2">Tags:</span>
       <div class="flex flex-wrap items-center text-light-blue-500 -mx-1">
         <TagLabel v-for="tag in frontmatter.tags" :key="tag" class="m-1" @click="searchTag(tag)">
@@ -85,7 +85,7 @@ function searchTag(tag: string) {
         </TagLabel>
       </div>
     </div>
-    <div v-if="route.path !== '/'" class="max-w-screen-sm m-auto mt-8 mb-8">
+    <div v-if="route.path !== '/'" class="max-w-screen-lg m-auto mt-8 mb-8">
       <router-link
         :to="route.path.split('/').slice(0, -1).join('/') || '/'"
         class="font-mono no-underline opacity-50 hover:opacity-75"

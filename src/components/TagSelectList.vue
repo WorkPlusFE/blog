@@ -19,7 +19,7 @@ function removeTag(tag: string) {
 </script>
 
 <template>
-  <div v-if="tags.length" class="mb-6 inline-flex !mb-0 ml-4">
+  <div v-if="tags.length" class="mb-6 inline-flex !mb-0 mr-4">
     <TagLabel
       v-for="tag in tags"
       :key="tag"

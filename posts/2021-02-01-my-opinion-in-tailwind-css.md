@@ -5,7 +5,7 @@ type: post
 lang: zh-CN
 date: 2021-02-01T17:56:14+00:00
 description: 轻体验一番 Tailwind CSS 后，来谈谈我对它的看法
-image: /images/2021/02/tailwindcss-demo.png
+image: /images/2021/02/tailwindcss.png
 categories:
   - CSS
 tags:

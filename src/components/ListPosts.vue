@@ -27,8 +27,8 @@ const posts = computed(() => {
 </script>
 
 <template>
-  <div class="max-w-screen-md mx-auto">
-    <ul class="grid grid-cols-1 md:grid-cols-2 gap-10">
+  <div class="max-w-screen-lg mx-auto">
+    <ul class="grid grid-cols-1 md:grid-cols-3 gap-10">
       <li
         v-for="post in posts"
         :key="post.path"

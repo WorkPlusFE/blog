@@ -5,7 +5,7 @@ type: post
 lang: zh-CN
 date: 2021-02-08T17:56:14+00:00
 description: 走进 TypeScript
-image: /images/2021/02/ts-compile.jpg
+image: /images/2021/02/typescript.png
 categories:
   - TypeScript
 tags:

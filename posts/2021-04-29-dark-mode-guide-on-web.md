@@ -5,7 +5,7 @@ type: post
 lang: zh-CN
 date: 2021-04-29
 description: Web 深色模式适配简明指南
-image: /images/2021/02/tailwindcss-demo.png
+image: /images/2021/04/dark-mode.png
 categories:
   - CSS
 tags:

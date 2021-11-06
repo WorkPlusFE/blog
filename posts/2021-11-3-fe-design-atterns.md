@@ -5,7 +5,7 @@ type: post
 lang: zh-CN
 date: 2021-11-4
 description: 前端常用设计模式
-image: /images/2021/06/internationalization_1.png
+image: /images/2021/11/JavaScript.png
 categories:
   - 设计模式
 tags:

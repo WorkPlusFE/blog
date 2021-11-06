@@ -5,7 +5,7 @@ type: post
 lang: zh-CN
 date: 2021-08-30
 description: 自动国际化方案探究
-image: /images/2021/06/internationalization_1.png
+image: /images/2021/08/auto-i18n.jpeg
 categories:
   - i18n
 tags:

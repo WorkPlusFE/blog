@@ -74,6 +74,10 @@ html.dark {
   margin-bottom: 0;
 }
 
+.markdown-body a {
+  color: inherit !important;
+}
+
 html.dark :not(pre) > code {
   color: #a78bfa;
 }

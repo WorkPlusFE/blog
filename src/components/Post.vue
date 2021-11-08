@@ -1,5 +1,6 @@
 <script setup lang='ts'>
 import { isClient } from '@vueuse/core'
+import Gitalk from 'gitalk'
 import { formatDate } from '@/logics'
 import { DOMAIN } from '@/constants'
 
@@ -21,6 +22,7 @@ if (isClient) {
         router.push(href)
       })
     })
+    initGitalk()
   })
 }
 
@@ -56,6 +58,24 @@ function searchTag(tag: string) {
     },
   })
 }
+
+function initGitalk() {
+  const gitalk = new Gitalk({
+    clientID: '87a92d45e6198f4569b0',
+    clientSecret: 'cf39cbf981102d3372cf7d3fd4a76ea7423ad886',
+    repo: 'blog', // The repository of store comments,
+    owner: 'WorkPlusFE',
+    admin: ['WorkPlusFE'],
+    id: location.pathname, // Ensure uniqueness and length less than 50
+    distractionFreeMode: false, // Facebook-like distraction free mode
+  })
+
+  setTimeout(() => {
+    if (document.getElementById('gitalk-container'))
+      gitalk.render('gitalk-container')
+  }, 1 * 1000)
+}
+
 </script>
 
 <template>
@@ -93,10 +113,17 @@ function searchTag(tag: string) {
         cd ..
       </router-link>
     </div>
+    <div v-if="route.path !== '/'" id="gitalk-container" class="gitalk-container" />
   </div>
 </template>
 
-<style>
+<style lang="scss">
+@import 'gitalk/dist/gitalk.css';
+
+.gitalk-container .markdown-body a {
+  color: #0366d6 !important;
+}
+
 .post-list {
   --prose-max-width: 768px;
 }

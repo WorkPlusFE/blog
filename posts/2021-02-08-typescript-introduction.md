@@ -14,7 +14,7 @@ tags:
 ---
 
 
-`TypeScript` 是 `JavaScript` 的强类型版本，然后它会在编译器把类型、特有语法等等编译成 `JavaScript` 。由于最终运行的是 `JavaScript` ，所以 `TypeScript` 并不会依赖于浏览器的支持，也不会带来兼容性的问题。
+`js` 是 `JavaScript` 的强类型版本，然后它会在编译器把类型、特有语法等等编译成 `JavaScript` 。由于最终运行的是 `JavaScript` ，所以 `js` 并不会依赖于浏览器的支持，也不会带来兼容性的问题。
 
 ## 类型系统的好处
 
@@ -76,7 +76,7 @@ import Button from 'antd/lib/button'
 
 **代码：**
 
-```TypeScript
+```js
 import * as ts from 'TypeScript'
 import * as kind from 'ts-is-kind'
 
@@ -162,7 +162,7 @@ console.log(compile('import { Button } from "antd"'))
   - 目的是为了创建可复用的组件，使其可以支持多数据类型。
   - 本质就是给类型传参
 
-  ``````TypeScript
+  ``````js
   interface Generic<T> {
     (x: T, y: T): T;
   }
@@ -178,7 +178,7 @@ console.log(compile('import { Button } from "antd"'))
 
   - 可以用 extends 来对泛型约束
 
-    ```TypeScript
+    ```js
     // 泛型约束
     interface Length {
       length: number
@@ -229,7 +229,7 @@ console.log(compile('import { Button } from "antd"'))
 
   - Never是TypeScript的一种`bottom type`，即是表示永不存在的值的类型。
 
-    ```TypeScript
+    ```js
     // 不相交类型的inteserction结果为never
     type IntersectionNeverType = 1 & 2
     // 是任何类型的subtype
@@ -244,7 +244,7 @@ console.log(compile('import { Button } from "antd"'))
 
   - unknown 表示未知类型，当无法立刻确定类型时，建议先使用 unknown，到使用时再使用类型断言确定类型
 
-    ```TypeScript
+    ```js
     let a: any = 1
     const b: unknown = 2;
     
@@ -257,7 +257,7 @@ console.log(compile('import { Button } from "antd"'))
 
   ##### **keyof**
 
-  ```TypeScript
+  ```js
   interface Person {
     name: string;
     age: number;
@@ -275,7 +275,7 @@ console.log(compile('import { Button } from "antd"'))
 
   作用就是将某个类型里的属性全部变为可选项 `?`
 
-  ```TypeScript
+  ```js
   /**
    * node_modules/TypeScript/lib/lib.es5.d.ts
    * Make all properties in T optional
@@ -389,7 +389,7 @@ console.log(compile('import { Button } from "antd"'))
 
     - 生成 options，通过一些判断来给 options 添加属性
 
-      ```TypeScript
+      ```js
       const proto = Component.prototype
         Object.getOwnPropertyNames(proto).forEach(function (key) {
           if (key === 'constructor') {
@@ -426,7 +426,7 @@ console.log(compile('import { Button } from "antd"'))
 
     - 遍历component里的`__decorator__`属性，并执行它的factory方法
 
-      ```TypeScript
+      ```js
       // decorate options
         const decorators = (Component as DecoratedClass).__decorators__
         if (decorators) {
@@ -437,7 +437,7 @@ console.log(compile('import { Button } from "antd"'))
 
     - 调用`Vue.extend(options)`创建一个组件构造器并返回
 
-      ```TypeScript
+      ```js
       const superProto = Object.getPrototypeOf(Component.prototype)
       const Super = superProto instanceof Vue
       ? superProto.constructor as VueClass<Vue>

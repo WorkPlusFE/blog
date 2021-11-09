@@ -113,7 +113,7 @@ function initGitalk() {
         cd ..
       </router-link>
     </div>
-    <div v-if="route.path !== '/' && route.path !== '/about'" id="gitalk-container" class="gitalk-container" />
+    <div v-if="route.path !== '/' && route.path !== '/about'" id="gitalk-container" class="gitalk-container max-w-screen-lg m-auto mt-12" />
   </div>
 </template>
 

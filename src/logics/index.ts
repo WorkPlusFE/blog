@@ -6,6 +6,6 @@ export const toggleDark = useToggle(isDark)
 export function formatDate(d: string | Date) {
   const date = dayjs(d)
   if (date.year() === dayjs().year())
-    return date.format('MMM D')
-  return date.format('MMM D, YYYY')
+    return date.format('MM-DD')
+  return date.format('YYYY-MM-DD')
 }

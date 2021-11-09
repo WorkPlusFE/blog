@@ -12,7 +12,10 @@
         to="/"
         focusable="false"
       >
-        <span class="lt-md:hidden">WorkPlusFE's Blog</span>
+        <span class="lt-md:hidden">
+          WorkPlusFE's Blog
+          <sup class="text-xs subpixel-antialiased bg-green-500 px-1 rounded-sm not-italic text-normal text-white">beta</sup>
+        </span>
         <span class="md:hidden text-xl">@w6s/blog</span>
       </router-link>
       <nav class="nav">

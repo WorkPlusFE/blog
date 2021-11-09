@@ -80,7 +80,7 @@ function initGitalk() {
 
 <template>
   <div :class="{ 'post-list': isPostList }">
-    <div v-if="frontmatter.title" class="max-w-screen-lg m-auto mb-8">
+    <div v-if="frontmatter.title" class="max-w-screen-md m-auto mb-8">
       <p v-if="frontmatter.date" class="opacity-50 -mt-2 mb-5">
         <a :href="frontmatter.authorProfile || 'https://github.com/workplusfe/'">{{ frontmatter.author }}</a> / <time> {{ formatDate(frontmatter.date) }} </time>
       </p>
@@ -91,13 +91,13 @@ function initGitalk() {
         <TagSelectList v-if="route.path === '/'" />
       </div>
     </div>
-    <div v-if="frontmatter.image" class="max-w-screen-lg mx-auto py-8">
+    <div v-if="frontmatter.image" class="max-w-screen-md mx-auto py-8">
       <img v-lazy="frontmatter.image" class="overflow-hidden rounded-lg md:rounded-xl w-full" :alt="frontmatter.title">
     </div>
-    <div :class="{ 'max-w-screen-lg mx-auto': frontmatter.prose !== false }">
+    <div :class="{ 'max-w-screen-md mx-auto': frontmatter.prose !== false }">
       <slot />
     </div>
-    <div v-if="frontmatter.tags" class="max-w-screen-lg m-auto mt-12">
+    <div v-if="frontmatter.tags" class="max-w-screen-md m-auto mt-12">
       <span class="text-lg font-semibold mr-2">Tags:</span>
       <div class="flex flex-wrap items-center text-light-blue-500 -mx-1">
         <TagLabel v-for="tag in frontmatter.tags" :key="tag" class="m-1" @click="searchTag(tag)">
@@ -105,7 +105,7 @@ function initGitalk() {
         </TagLabel>
       </div>
     </div>
-    <div v-if="route.path !== '/'" class="max-w-screen-lg m-auto mt-8 mb-8">
+    <div v-if="route.path !== '/'" class="max-w-screen-md m-auto mt-8 mb-8">
       <router-link
         :to="route.path.split('/').slice(0, -1).join('/') || '/'"
         class="font-mono no-underline opacity-50 hover:opacity-75"
@@ -113,7 +113,7 @@ function initGitalk() {
         cd ..
       </router-link>
     </div>
-    <div v-if="route.path !== '/' && route.path !== '/about'" id="gitalk-container" class="w6s-gitalk gitalk-container max-w-screen-lg m-auto mt-12" />
+    <div v-if="route.path !== '/' && route.path !== '/about'" id="gitalk-container" class="w6s-gitalk gitalk-container max-w-screen-md m-auto mt-12" />
   </div>
 </template>
 

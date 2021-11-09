@@ -64,8 +64,8 @@ function initGitalk() {
     clientID: '87a92d45e6198f4569b0',
     clientSecret: 'cf39cbf981102d3372cf7d3fd4a76ea7423ad886',
     repo: 'blog', // The repository of store comments,
-    owner: 'WorkPlusFE',
-    admin: ['WorkPlusFE'],
+    owner: 'workplusfe',
+    admin: ['workplusfe', 'hejianxian'],
     id: location.pathname, // Ensure uniqueness and length less than 50
     distractionFreeMode: false, // Facebook-like distraction free mode
   })

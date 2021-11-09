@@ -82,7 +82,7 @@ function initGitalk() {
   <div :class="{ 'post-list': isPostList }">
     <div v-if="frontmatter.title" class="max-w-screen-md m-auto mb-8">
       <p v-if="frontmatter.date" class="opacity-50 -mt-2 mb-5">
-        <a :href="frontmatter.authorProfile || 'https://github.com/workplusfe/'">{{ frontmatter.author }}</a> / <time> {{ formatDate(frontmatter.date) }} </time>
+        <a class="hover:underline" :href="frontmatter.authorProfile || 'https://github.com/workplusfe/'">{{ frontmatter.author }}</a> / <time> {{ formatDate(frontmatter.date) }} </time>
       </p>
       <div class="flex items-center">
         <h1 v-if="route.path !== '/'" class="text-4xl font-extrabold">
@@ -119,10 +119,6 @@ function initGitalk() {
 
 <style lang="scss">
 @import '../styles/gitalk.scss';
-
-.gitalk-container .markdown-body a {
-  color: #0366d6 !important;
-}
 
 .post-list {
   --prose-max-width: 768px;

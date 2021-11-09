@@ -1,6 +1,7 @@
 ---
 title: Web 深色模式适配简明指南
 author: lwy1010
+authorProfile: https://github.com/lwy1010
 type: post
 lang: zh-CN
 date: 2021-04-29

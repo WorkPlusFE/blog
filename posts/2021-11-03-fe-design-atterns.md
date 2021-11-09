@@ -1,6 +1,7 @@
 ---
 title: 前端常用设计模式
 author: 叶兴胜
+authorProfile: https://github.com/Gertyxs
 type: post
 lang: zh-CN
 date: 2021-11-4

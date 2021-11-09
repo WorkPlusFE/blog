@@ -1,6 +1,7 @@
 ---
 title: 自动国际化方案探究
 author: 叶兴胜
+authorProfile: https://github.com/Gertyxs
 type: post
 lang: zh-CN
 date: 2021-08-30

@@ -1,6 +1,7 @@
 ---
 title: 轻体验一番 Tailwind CSS 后，来谈谈我对它的看法
 author: lwy1010
+authorProfile: https://github.com/lwy1010
 type: post
 lang: zh-CN
 date: 2021-02-01T17:56:14+00:00

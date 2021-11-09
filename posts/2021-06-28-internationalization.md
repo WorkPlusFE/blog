@@ -1,6 +1,7 @@
 ---
 title: 前端快速国际化方案
 author: 黄宝怡
+authorProfile: https://github.com/BaoYihahaha
 type: post
 lang: zh-CN
 date: 2021-06-28

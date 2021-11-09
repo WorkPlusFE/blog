@@ -1,6 +1,7 @@
 ---
 title: Axios 源码分析
 author: hejx
+authorProfile: https://github.com/hejianxian
 type: post
 lang: zh-CN
 date: 2020-11-15T17:56:14+00:00

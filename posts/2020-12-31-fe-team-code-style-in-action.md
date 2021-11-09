@@ -1,6 +1,7 @@
 ---
 title: 前端工程化实践之团队代码规范
 author: lwy1010
+authorProfile: https://github.com/lwy1010
 type: post
 lang: zh-CN
 date: 2020-12-30T17:56:14+00:00

@@ -1,6 +1,7 @@
 ---
 title: 走进 TypeScript
 author: 何镇豪
+authorProfile: https://github.com/ElvisUpUp
 type: post
 lang: zh-CN
 date: 2021-02-08T17:56:14+00:00

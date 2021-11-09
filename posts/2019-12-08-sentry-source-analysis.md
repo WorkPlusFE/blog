@@ -1,6 +1,6 @@
 ---
 title: Sentry 前端异常上报源码分析
-author: hejx
+author: 林文聪
 type: post
 lang: zh-CN
 date: 2019-12-08T17:56:14+00:00

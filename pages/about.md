@@ -5,6 +5,7 @@
 - [产品官网](https://workplus.io)
 - [WorkPlus Lite](https://lite.workplus.io/)
 - [开放平台](https://open.workplus.io)
+- [前端开发手册](https://open.workplus.io/dev/start/)
 
 ### Github 组织
 

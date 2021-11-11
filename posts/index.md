@@ -1,5 +1,5 @@
 ---
-title: Posts
+title: WorkPlusFE's Blog
 prose: false
 ---
 

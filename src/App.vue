@@ -4,7 +4,7 @@ import { useHead } from '@vueuse/head'
 useHead({
   title: 'WorkPlusFE',
   meta: [
-    { property: 'og:title', content: 'WorkPlusFE' },
+    { property: 'og:title', content: 'WorkPlusFE\'s Blog' },
     { property: 'og:image', content: 'https://fe-blog.workplus.io/avatar.png' },
     { property: 'og:type', content: 'website' },
     { name: 'description', content: '恒拓高科前端技术部博客，分享前端技术及项目经验' },

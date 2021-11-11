@@ -85,9 +85,9 @@ function initGitalk() {
         <a class="hover:underline" :href="frontmatter.authorProfile || 'https://github.com/workplusfe/'">{{ frontmatter.author }}</a> / <time> {{ formatDate(frontmatter.date) }} </time>
       </p>
       <div class="flex items-center">
-        <h1 v-if="route.path !== '/'" class="text-4xl font-extrabold">
+        <!-- <h1 v-if="route.path !== '/'" class="text-4xl font-extrabold">
           {{ frontmatter.title }}
-        </h1>
+        </h1> -->
         <TagSelectList v-if="route.path === '/'" />
       </div>
     </div>

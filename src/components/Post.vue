@@ -80,7 +80,7 @@ function initGitalk() {
 
 <template>
   <div :class="{ 'post-list': isPostList }">
-    <div v-if="frontmatter.title" class="max-w-screen-md m-auto mb-8">
+    <div v-if="frontmatter.title" class="max-w-screen-md m-auto">
       <p v-if="frontmatter.date" class="opacity-50 -mt-2 mb-5">
         <a class="hover:underline" :href="frontmatter.authorProfile || 'https://github.com/workplusfe/'">{{ frontmatter.author }}</a> / <time> {{ formatDate(frontmatter.date) }} </time>
       </p>

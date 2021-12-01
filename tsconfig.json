@@ -14,7 +14,8 @@
     "lib": ["esnext", "dom"],
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "types": ["vite-plugin-pages/client"]
   },
   "include": ["src/**/*.vue", "src/**/*.ts", "src/**/*.d.ts", "vite.config.ts"]
 }

@@ -4,7 +4,7 @@ author: 叶兴胜
 authorProfile: https://github.com/Gertyxs
 type: post
 lang: zh-CN
-date: 2021-11-4
+date: 2021-11-04
 description: 前端常用设计模式
 image: /images/2021/11/JavaScript.png
 categories:

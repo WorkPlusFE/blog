@@ -169,167 +169,170 @@
     "/assets/vendor.a22b69d8.js"
   ],
   "../../../../../../images/2021/11/xss1.jpg": [
-    "/assets/2021-11-29-xss.f640402c.js"
+    "/assets/2021-11-29-xss.71c55bae.js"
   ],
   "../../../../../../images/2021/11/bootbox-xss.jpg": [
-    "/assets/2021-11-29-xss.f640402c.js"
+    "/assets/2021-11-29-xss.71c55bae.js"
   ],
   "../../../../../../images/2021/11/toast-xss.jpg": [
-    "/assets/2021-11-29-xss.f640402c.js"
+    "/assets/2021-11-29-xss.71c55bae.js"
   ],
   "posts/2021-11-29-xss.md": [
-    "/assets/2021-11-29-xss.f640402c.js"
+    "/assets/2021-11-29-xss.71c55bae.js"
   ],
   "~icons/icon-park-outline/close-small": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "src/components/TagLabel.vue": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "src/components/TagSelectList.vue": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "\u0000/Users/Holowaychuk/foreverht/hejx/workplus-fe/blog/node_modules/.pnpm/gitalk@1.7.2/node_modules/gitalk/dist/gitalk.js?commonjs-module": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "node_modules/.pnpm/gitalk@1.7.2/node_modules/gitalk/dist/gitalk.js": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "src/constants.ts": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "src/components/Post.vue?vue&type=style&index=0&lang.scss": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "src/components/Post.vue": [
-    "/assets/Post.e17e6aa3.js",
+    "/assets/Post.56dd3a2f.js",
     "/assets/Post.9c4ecd50.css"
   ],
   "posts/2021-07-04-vue3.md": [
-    "/assets/2021-07-04-vue3.6f02c24f.js"
+    "/assets/2021-07-04-vue3.62a9616b.js"
   ],
   "../../../../../../images/2021/03/vite-import.png": [
-    "/assets/2021-03-14-vite-2-0.177841a9.js"
+    "/assets/2021-03-14-vite-2-0.cd17d804.js"
   ],
   "posts/2021-03-14-vite-2-0.md": [
-    "/assets/2021-03-14-vite-2-0.177841a9.js"
+    "/assets/2021-03-14-vite-2-0.cd17d804.js"
   ],
   "../../../../../../images/2021/02/ts-compile.jpg": [
-    "/assets/2021-02-08-typescript-introduction.09fe7c7b.js"
+    "/assets/2021-02-08-typescript-introduction.6b4c510f.js"
   ],
   "../../../../../../images/2021/02/ast-before.png": [
-    "/assets/2021-02-08-typescript-introduction.09fe7c7b.js"
+    "/assets/2021-02-08-typescript-introduction.6b4c510f.js"
   ],
   "../../../../../../images/2021/02/ast-after.png": [
-    "/assets/2021-02-08-typescript-introduction.09fe7c7b.js"
+    "/assets/2021-02-08-typescript-introduction.6b4c510f.js"
   ],
   "posts/2021-02-08-typescript-introduction.md": [
-    "/assets/2021-02-08-typescript-introduction.09fe7c7b.js"
+    "/assets/2021-02-08-typescript-introduction.6b4c510f.js"
   ],
   "posts/2019-12-08-sentry-source-analysis.md": [
-    "/assets/2019-12-08-sentry-source-analysis.0be8e4cc.js"
+    "/assets/2019-12-08-sentry-source-analysis.c4739e87.js"
   ],
   "posts/2019-12-03-sentry-getting-started.md": [
-    "/assets/2019-12-03-sentry-getting-started.f201ac0f.js"
+    "/assets/2019-12-03-sentry-getting-started.e8259919.js"
   ],
   "../../../../../../images/2021/02/tailwindcss-demo.png": [
-    "/assets/2021-02-01-my-opinion-in-tailwind-css.f032125a.js"
+    "/assets/2021-02-01-my-opinion-in-tailwind-css.16c694b4.js"
   ],
   "../../../../../../images/2021/02/rem-vs-acss.png": [
-    "/assets/2021-02-01-my-opinion-in-tailwind-css.f032125a.js"
+    "/assets/2021-02-01-my-opinion-in-tailwind-css.16c694b4.js"
   ],
   "posts/2021-02-01-my-opinion-in-tailwind-css.md": [
-    "/assets/2021-02-01-my-opinion-in-tailwind-css.f032125a.js"
+    "/assets/2021-02-01-my-opinion-in-tailwind-css.16c694b4.js"
   ],
   "pages/more.md": [
-    "/assets/more.adabc60c.js"
+    "/assets/more.6d9f71ed.js"
   ],
   "../../../../../../images/2021/05/minPrinciple.png": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "../../../../../../images/2021/05/kbone0.png": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "../../../../../../images/2021/05/kbone.jpeg": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "../../../../../../images/2021/05/kboneCharacteristics.jpeg": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "../../../../../../images/2021/05/kbone-wxs.jpeg": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "../../../../../../images/2021/05/kboneClick.jpeg": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
   ],
   "posts/2021-05-28-kbone.md": [
-    "/assets/2021-05-28-kbone.e2bedc69.js"
+    "/assets/2021-05-28-kbone.bf55aa0d.js"
+  ],
+  "posts/2022-01-06-json-scheme.md": [
+    "/assets/2022-01-06-json-scheme.206d6cb8.js"
   ],
   "../../../../../../images/2021/06/internationalization_1.png": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/06/internationalization_2.gif": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/06/internationalization_3.png": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/06/internationalization_4.gif": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/06/internationalization_5.gif": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/06/internationalization_6.gif": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "posts/2021-06-28-internationalization.md": [
-    "/assets/2021-06-28-internationalization.3c8c3d5c.js"
+    "/assets/2021-06-28-internationalization.d1acb0b9.js"
   ],
   "../../../../../../images/2021/12/vue-cli-setup.png": [
-    "/assets/2020-12-31-fe-team-code-style-in-action.c7138db0.js"
+    "/assets/2020-12-31-fe-team-code-style-in-action.e4f48406.js"
   ],
   "../../../../../../images/2021/12/vue-git-commit-log.png": [
-    "/assets/2020-12-31-fe-team-code-style-in-action.c7138db0.js"
+    "/assets/2020-12-31-fe-team-code-style-in-action.e4f48406.js"
   ],
   "posts/2020-12-31-fe-team-code-style-in-action.md": [
-    "/assets/2020-12-31-fe-team-code-style-in-action.c7138db0.js"
+    "/assets/2020-12-31-fe-team-code-style-in-action.e4f48406.js"
   ],
   "posts/2021-11-03-fe-design-atterns.md": [
-    "/assets/2021-11-03-fe-design-atterns.898ad413.js"
+    "/assets/2021-11-03-fe-design-atterns.e0f13785.js"
   ],
   "posts/2021-04-29-dark-mode-guide-on-web.md": [
-    "/assets/2021-04-29-dark-mode-guide-on-web.6cf67166.js"
+    "/assets/2021-04-29-dark-mode-guide-on-web.2468919e.js"
   ],
   "posts/2020-11-16-css-grid.md": [
-    "/assets/2020-11-16-css-grid.0ee8795e.js"
+    "/assets/2020-11-16-css-grid.69723593.js"
   ],
   "posts/2020-11-15-axios-source-analysis.md": [
-    "/assets/2020-11-15-axios-source-analysis.24770d16.js"
+    "/assets/2020-11-15-axios-source-analysis.24a08aef.js"
   ],
   "posts/2021-08-30-autoi8n-scheme.md": [
-    "/assets/2021-08-30-autoi8n-scheme.65a44470.js"
+    "/assets/2021-08-30-autoi8n-scheme.e50d2f2a.js"
   ],
   "../../../../../../avatar.png": [
-    "/assets/about.c494ff81.js"
+    "/assets/about.1a0473d8.js"
   ],
   "src/components/AboutMe.vue": [
-    "/assets/about.c494ff81.js"
+    "/assets/about.1a0473d8.js"
   ],
   "pages/about.md": [
-    "/assets/about.c494ff81.js"
+    "/assets/about.1a0473d8.js"
   ],
   "src/components/ListPosts.vue": [
-    "/assets/index.1411998c.js"
+    "/assets/index.a2d871e4.js"
   ],
   "posts/index.md": [
-    "/assets/index.1411998c.js"
+    "/assets/index.a2d871e4.js"
   ]
 }
